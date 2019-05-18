@@ -14,6 +14,8 @@
 		F50BBC32229070BA00323B77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50BBC30229070BA00323B77 /* LaunchScreen.storyboard */; };
 		F50BBC3D229070BA00323B77 /* StellarMineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50BBC3C229070BA00323B77 /* StellarMineTests.swift */; };
 		F50BBC48229070BA00323B77 /* StellarMineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50BBC47229070BA00323B77 /* StellarMineUITests.swift */; };
+		F50BBC56229072B400323B77 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50BBC55229072B400323B77 /* GameViewController.swift */; };
+		F5E4A9A322908320005A3403 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E4A9A222908320005A3403 /* SwipingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F50BBC43229070BA00323B77 /* StellarMineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StellarMineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50BBC47229070BA00323B77 /* StellarMineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellarMineUITests.swift; sourceTree = "<group>"; };
 		F50BBC49229070BA00323B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F50BBC55229072B400323B77 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F5E4A9A222908320005A3403 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				F50BBC27229070B900323B77 /* AppDelegate.swift */,
 				F50BBC29229070B900323B77 /* ViewController.swift */,
 				F50BBC2B229070B900323B77 /* Main.storyboard */,
+				F5E4A9A222908320005A3403 /* SwipingController.swift */,
+				F50BBC55229072B400323B77 /* GameViewController.swift */,
 				F50BBC2E229070BA00323B77 /* Assets.xcassets */,
 				F50BBC30229070BA00323B77 /* LaunchScreen.storyboard */,
 				F50BBC33229070BA00323B77 /* Info.plist */,
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F50BBC2A229070B900323B77 /* ViewController.swift in Sources */,
+				F50BBC56229072B400323B77 /* GameViewController.swift in Sources */,
 				F50BBC28229070B900323B77 /* AppDelegate.swift in Sources */,
+				F5E4A9A322908320005A3403 /* SwipingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
