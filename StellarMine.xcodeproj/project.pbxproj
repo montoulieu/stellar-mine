@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F50BBC28229070B900323B77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50BBC27229070B900323B77 /* AppDelegate.swift */; };
+		F50BBC2A229070B900323B77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50BBC29229070B900323B77 /* ViewController.swift */; };
+		F50BBC2D229070B900323B77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50BBC2B229070B900323B77 /* Main.storyboard */; };
+		F50BBC2F229070BA00323B77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F50BBC2E229070BA00323B77 /* Assets.xcassets */; };
+		F50BBC32229070BA00323B77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50BBC30229070BA00323B77 /* LaunchScreen.storyboard */; };
+		F50BBC3D229070BA00323B77 /* StellarMineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50BBC3C229070BA00323B77 /* StellarMineTests.swift */; };
+		F50BBC48229070BA00323B77 /* StellarMineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50BBC47229070BA00323B77 /* StellarMineUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F50BBC39229070BA00323B77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F50BBC1C229070B900323B77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F50BBC23229070B900323B77;
+			remoteInfo = StellarMine;
+		};
+		F50BBC44229070BA00323B77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F50BBC1C229070B900323B77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F50BBC23229070B900323B77;
+			remoteInfo = StellarMine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F50BBC24229070B900323B77 /* StellarMine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StellarMine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50BBC27229070B900323B77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F50BBC29229070B900323B77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F50BBC2C229070B900323B77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F50BBC2E229070BA00323B77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F50BBC31229070BA00323B77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F50BBC33229070BA00323B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F50BBC38229070BA00323B77 /* StellarMineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StellarMineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50BBC3C229070BA00323B77 /* StellarMineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellarMineTests.swift; sourceTree = "<group>"; };
+		F50BBC3E229070BA00323B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F50BBC43229070BA00323B77 /* StellarMineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StellarMineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50BBC47229070BA00323B77 /* StellarMineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellarMineUITests.swift; sourceTree = "<group>"; };
+		F50BBC49229070BA00323B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F50BBC21229070B900323B77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50BBC35229070BA00323B77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50BBC40229070BA00323B77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F50BBC1B229070B900323B77 = {
+			isa = PBXGroup;
+			children = (
+				F50BBC26229070B900323B77 /* StellarMine */,
+				F50BBC3B229070BA00323B77 /* StellarMineTests */,
+				F50BBC46229070BA00323B77 /* StellarMineUITests */,
+				F50BBC25229070B900323B77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F50BBC25229070B900323B77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F50BBC24229070B900323B77 /* StellarMine.app */,
+				F50BBC38229070BA00323B77 /* StellarMineTests.xctest */,
+				F50BBC43229070BA00323B77 /* StellarMineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F50BBC26229070B900323B77 /* StellarMine */ = {
+			isa = PBXGroup;
+			children = (
+				F50BBC27229070B900323B77 /* AppDelegate.swift */,
+				F50BBC29229070B900323B77 /* ViewController.swift */,
+				F50BBC2B229070B900323B77 /* Main.storyboard */,
+				F50BBC2E229070BA00323B77 /* Assets.xcassets */,
+				F50BBC30229070BA00323B77 /* LaunchScreen.storyboard */,
+				F50BBC33229070BA00323B77 /* Info.plist */,
+			);
+			path = StellarMine;
+			sourceTree = "<group>";
+		};
+		F50BBC3B229070BA00323B77 /* StellarMineTests */ = {
+			isa = PBXGroup;
+			children = (
+				F50BBC3C229070BA00323B77 /* StellarMineTests.swift */,
+				F50BBC3E229070BA00323B77 /* Info.plist */,
+			);
+			path = StellarMineTests;
+			sourceTree = "<group>";
+		};
+		F50BBC46229070BA00323B77 /* StellarMineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F50BBC47229070BA00323B77 /* StellarMineUITests.swift */,
+				F50BBC49229070BA00323B77 /* Info.plist */,
+			);
+			path = StellarMineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F50BBC23229070B900323B77 /* StellarMine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50BBC4C229070BA00323B77 /* Build configuration list for PBXNativeTarget "StellarMine" */;
+			buildPhases = (
+				F50BBC20229070B900323B77 /* Sources */,
+				F50BBC21229070B900323B77 /* Frameworks */,
+				F50BBC22229070B900323B77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StellarMine;
+			productName = StellarMine;
+			productReference = F50BBC24229070B900323B77 /* StellarMine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F50BBC37229070BA00323B77 /* StellarMineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50BBC4F229070BA00323B77 /* Build configuration list for PBXNativeTarget "StellarMineTests" */;
+			buildPhases = (
+				F50BBC34229070BA00323B77 /* Sources */,
+				F50BBC35229070BA00323B77 /* Frameworks */,
+				F50BBC36229070BA00323B77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F50BBC3A229070BA00323B77 /* PBXTargetDependency */,
+			);
+			name = StellarMineTests;
+			productName = StellarMineTests;
+			productReference = F50BBC38229070BA00323B77 /* StellarMineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F50BBC42229070BA00323B77 /* StellarMineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F50BBC52229070BA00323B77 /* Build configuration list for PBXNativeTarget "StellarMineUITests" */;
+			buildPhases = (
+				F50BBC3F229070BA00323B77 /* Sources */,
+				F50BBC40229070BA00323B77 /* Frameworks */,
+				F50BBC41229070BA00323B77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F50BBC45229070BA00323B77 /* PBXTargetDependency */,
+			);
+			name = StellarMineUITests;
+			productName = StellarMineUITests;
+			productReference = F50BBC43229070BA00323B77 /* StellarMineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F50BBC1C229070B900323B77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Pieter Montoulieu";
+				TargetAttributes = {
+					F50BBC23229070B900323B77 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					F50BBC37229070BA00323B77 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F50BBC23229070B900323B77;
+					};
+					F50BBC42229070BA00323B77 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F50BBC23229070B900323B77;
+					};
+				};
+			};
+			buildConfigurationList = F50BBC1F229070B900323B77 /* Build configuration list for PBXProject "StellarMine" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F50BBC1B229070B900323B77;
+			productRefGroup = F50BBC25229070B900323B77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F50BBC23229070B900323B77 /* StellarMine */,
+				F50BBC37229070BA00323B77 /* StellarMineTests */,
+				F50BBC42229070BA00323B77 /* StellarMineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F50BBC22229070B900323B77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50BBC32229070BA00323B77 /* LaunchScreen.storyboard in Resources */,
+				F50BBC2F229070BA00323B77 /* Assets.xcassets in Resources */,
+				F50BBC2D229070B900323B77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50BBC36229070BA00323B77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50BBC41229070BA00323B77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F50BBC20229070B900323B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50BBC2A229070B900323B77 /* ViewController.swift in Sources */,
+				F50BBC28229070B900323B77 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50BBC34229070BA00323B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50BBC3D229070BA00323B77 /* StellarMineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F50BBC3F229070BA00323B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F50BBC48229070BA00323B77 /* StellarMineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F50BBC3A229070BA00323B77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F50BBC23229070B900323B77 /* StellarMine */;
+			targetProxy = F50BBC39229070BA00323B77 /* PBXContainerItemProxy */;
+		};
+		F50BBC45229070BA00323B77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F50BBC23229070B900323B77 /* StellarMine */;
+			targetProxy = F50BBC44229070BA00323B77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F50BBC2B229070B900323B77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50BBC2C229070B900323B77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F50BBC30229070BA00323B77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F50BBC31229070BA00323B77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F50BBC4A229070BA00323B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F50BBC4B229070BA00323B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F50BBC4D229070BA00323B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32K9QAC7S9;
+				INFOPLIST_FILE = StellarMine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pixel-glitch.StellarMine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F50BBC4E229070BA00323B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32K9QAC7S9;
+				INFOPLIST_FILE = StellarMine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pixel-glitch.StellarMine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F50BBC50229070BA00323B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32K9QAC7S9;
+				INFOPLIST_FILE = StellarMineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pixel-glitch.StellarMineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StellarMine.app/StellarMine";
+			};
+			name = Debug;
+		};
+		F50BBC51229070BA00323B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32K9QAC7S9;
+				INFOPLIST_FILE = StellarMineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pixel-glitch.StellarMineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StellarMine.app/StellarMine";
+			};
+			name = Release;
+		};
+		F50BBC53229070BA00323B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32K9QAC7S9;
+				INFOPLIST_FILE = StellarMineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pixel-glitch.StellarMineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StellarMine;
+			};
+			name = Debug;
+		};
+		F50BBC54229070BA00323B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32K9QAC7S9;
+				INFOPLIST_FILE = StellarMineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pixel-glitch.StellarMineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StellarMine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F50BBC1F229070B900323B77 /* Build configuration list for PBXProject "StellarMine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50BBC4A229070BA00323B77 /* Debug */,
+				F50BBC4B229070BA00323B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F50BBC4C229070BA00323B77 /* Build configuration list for PBXNativeTarget "StellarMine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50BBC4D229070BA00323B77 /* Debug */,
+				F50BBC4E229070BA00323B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F50BBC4F229070BA00323B77 /* Build configuration list for PBXNativeTarget "StellarMineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50BBC50229070BA00323B77 /* Debug */,
+				F50BBC51229070BA00323B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F50BBC52229070BA00323B77 /* Build configuration list for PBXNativeTarget "StellarMineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50BBC53229070BA00323B77 /* Debug */,
+				F50BBC54229070BA00323B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F50BBC1C229070B900323B77 /* Project object */;
+}
