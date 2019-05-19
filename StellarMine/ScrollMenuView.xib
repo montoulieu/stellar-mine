@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <stackView contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="mAz-Fn-gP6">
+            <rect key="frame" x="0.0" y="0.0" width="1005" height="300"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b6T-xt-FiE" userLabel="Menu Pane">
+                    <rect key="frame" x="0.0" y="0.0" width="335" height="300"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="lGp-jw-nIX">
+                            <rect key="frame" x="8" y="52" width="319" height="206"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="3tg-lN-tDp">
+                                    <rect key="frame" x="0.0" y="0.0" width="155.5" height="206"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zEy-7m-mjm">
+                                            <rect key="frame" x="0.0" y="0.0" width="155.5" height="63.5"/>
+                                            <color key="backgroundColor" white="0.02" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
+                                            <state key="normal" title="Resources">
+                                                <color key="titleColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kxm-jF-qwK">
+                                            <rect key="frame" x="0.0" y="71.5" width="155.5" height="63"/>
+                                            <color key="backgroundColor" white="0.02" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
+                                            <state key="normal" title="Upgrades">
+                                                <color key="titleColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="20y-8W-ima">
+                                            <rect key="frame" x="0.0" y="142.5" width="155.5" height="63.5"/>
+                                            <color key="backgroundColor" white="0.02" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
+                                            <state key="normal" title="Star Map">
+                                                <color key="titleColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Dav-Hm-vyv">
+                                    <rect key="frame" x="163.5" y="0.0" width="155.5" height="206"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rsB-bj-oyc">
+                                            <rect key="frame" x="0.0" y="0.0" width="155.5" height="63.5"/>
+                                            <color key="backgroundColor" white="0.02" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
+                                            <state key="normal" title="Crew">
+                                                <color key="titleColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPn-KP-oFA">
+                                            <rect key="frame" x="0.0" y="71.5" width="155.5" height="63"/>
+                                            <color key="backgroundColor" white="0.02" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
+                                            <state key="normal" title="Systems">
+                                                <color key="titleColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pHC-7Z-5MM">
+                                            <rect key="frame" x="0.0" y="142.5" width="155.5" height="63.5"/>
+                                            <color key="backgroundColor" white="0.02" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
+                                            <state key="normal" title="Trophies">
+                                                <color key="titleColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottomMargin" secondItem="lGp-jw-nIX" secondAttribute="bottom" id="9TD-SZ-tVB"/>
+                        <constraint firstAttribute="trailingMargin" secondItem="lGp-jw-nIX" secondAttribute="trailing" id="9XO-MC-5zN"/>
+                        <constraint firstItem="lGp-jw-nIX" firstAttribute="top" secondItem="b6T-xt-FiE" secondAttribute="topMargin" id="VcB-Ti-rSv"/>
+                        <constraint firstAttribute="height" constant="300" id="bEo-ex-srE"/>
+                        <constraint firstItem="lGp-jw-nIX" firstAttribute="leading" secondItem="b6T-xt-FiE" secondAttribute="leadingMargin" id="lOy-Jy-fSV"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UlW-hW-4fR" userLabel="Menu Pane">
+                    <rect key="frame" x="335" y="0.0" width="335" height="300"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="wRD-PB-efu">
+                            <rect key="frame" x="8" y="52" width="319" height="206"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qWO-8C-Y1M">
+                                    <rect key="frame" x="0.0" y="0.0" width="319" height="45.5"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="atom" translatesAutoresizingMaskIntoConstraints="NO" id="xuH-Nc-1NI">
+                                            <rect key="frame" x="8" y="16" width="32" height="32"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0 res" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Hc-do-bO2">
+                                            <rect key="frame" x="48" y="6" width="263" height="50"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cx6-vC-m01">
+                                    <rect key="frame" x="0.0" y="53.5" width="319" height="45.5"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="coins-3" translatesAutoresizingMaskIntoConstraints="NO" id="Fa1-bA-yWp">
+                                            <rect key="frame" x="8" y="16" width="32" height="32"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0  ucc" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vsc-u5-9ti">
+                                            <rect key="frame" x="48" y="6" width="263" height="50"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LSc-BY-mgZ">
+                                    <rect key="frame" x="0.0" y="107" width="319" height="45.5"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="atom" translatesAutoresizingMaskIntoConstraints="NO" id="wwm-ki-g5R">
+                                            <rect key="frame" x="8" y="16" width="32" height="32"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0 resources" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8nd-xv-d9b">
+                                            <rect key="frame" x="48" y="6" width="263" height="50"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ASJ-Cb-4NJ">
+                                    <rect key="frame" x="0.0" y="160.5" width="319" height="45.5"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="atom" translatesAutoresizingMaskIntoConstraints="NO" id="iBy-80-ygX">
+                                            <rect key="frame" x="8" y="16" width="32" height="32"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0 resources" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BKW-UF-ALK">
+                                            <rect key="frame" x="48" y="6" width="263" height="50"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailingMargin" secondItem="wRD-PB-efu" secondAttribute="trailing" id="1nW-zS-MrL"/>
+                        <constraint firstItem="wRD-PB-efu" firstAttribute="top" secondItem="UlW-hW-4fR" secondAttribute="topMargin" id="7JS-5N-Dbx"/>
+                        <constraint firstAttribute="height" constant="300" id="BJk-rc-k6f"/>
+                        <constraint firstAttribute="bottomMargin" secondItem="wRD-PB-efu" secondAttribute="bottom" id="JSx-dG-N5j"/>
+                        <constraint firstItem="wRD-PB-efu" firstAttribute="leading" secondItem="UlW-hW-4fR" secondAttribute="leadingMargin" id="nfO-Zp-XEE"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8ah-P8-iOX" userLabel="Menu Pane">
+                    <rect key="frame" x="670" y="0.0" width="335" height="300"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="igh-XX-3G6">
+                            <rect key="frame" x="8" y="52" width="319" height="206"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="djS-7A-m3H">
+                                    <rect key="frame" x="0.0" y="0.0" width="154.5" height="206"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="34E-NB-Zsn">
+                                            <rect key="frame" x="0.0" y="0.0" width="154.5" height="44"/>
+                                            <color key="backgroundColor" white="0.02" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
+                                            <state key="normal" title="Testing">
+                                                <color key="titleColor" red="0.28627450980000002" green="0.71521409400000002" blue="0.36821924189999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bmr-pY-oVO">
+                                            <rect key="frame" x="0.0" y="54" width="154.5" height="44"/>
+                                            <color key="backgroundColor" white="0.02" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
+                                            <state key="normal" title="Button">
+                                                <color key="titleColor" red="0.28627450980000002" green="0.71521409400000002" blue="0.36821924189999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r6r-2T-Jtp">
+                                            <rect key="frame" x="0.0" y="108" width="154.5" height="44"/>
+                                            <color key="backgroundColor" white="0.02" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
+                                            <state key="normal" title="Button">
+                                                <color key="titleColor" red="0.28627450980000002" green="0.71521409400000002" blue="0.36821924189999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GsZ-qY-ufT">
+                                            <rect key="frame" x="0.0" y="162" width="154.5" height="44"/>
+                                            <color key="backgroundColor" white="0.02" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
+                                            <state key="normal" title="Button">
+                                                <color key="titleColor" red="0.28627450980000002" green="0.71521409400000002" blue="0.36821924189999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="I9A-Xe-VO5">
+                                    <rect key="frame" x="164.5" y="0.0" width="154.5" height="206"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdc-0i-VhP">
+                                            <rect key="frame" x="0.0" y="0.0" width="154.5" height="44"/>
+                                            <color key="backgroundColor" white="0.02" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
+                                            <state key="normal" title="Button">
+                                                <color key="titleColor" red="0.28627450980000002" green="0.71521409400000002" blue="0.36821924189999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ty-pO-CpJ">
+                                            <rect key="frame" x="0.0" y="54" width="154.5" height="44"/>
+                                            <color key="backgroundColor" white="0.02" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
+                                            <state key="normal" title="Button">
+                                                <color key="titleColor" red="0.28627450980000002" green="0.71521409400000002" blue="0.36821924189999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zqw-c0-f0c">
+                                            <rect key="frame" x="0.0" y="108" width="154.5" height="44"/>
+                                            <color key="backgroundColor" white="0.02" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
+                                            <state key="normal" title="Button">
+                                                <color key="titleColor" red="0.28627450980000002" green="0.71521409400000002" blue="0.36821924189999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e9h-KC-Nsp">
+                                            <rect key="frame" x="0.0" y="162" width="154.5" height="44"/>
+                                            <color key="backgroundColor" white="0.02" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
+                                            <state key="normal" title="Button">
+                                                <color key="titleColor" red="0.28627450980000002" green="0.71521409400000002" blue="0.36821924189999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottomMargin" secondItem="igh-XX-3G6" secondAttribute="bottom" id="XdP-XU-YIT"/>
+                        <constraint firstAttribute="height" constant="300" id="dcJ-JU-W3p"/>
+                        <constraint firstItem="igh-XX-3G6" firstAttribute="top" secondItem="8ah-P8-iOX" secondAttribute="topMargin" id="dhg-c2-y1W"/>
+                        <constraint firstItem="igh-XX-3G6" firstAttribute="leading" secondItem="8ah-P8-iOX" secondAttribute="leadingMargin" id="lHB-TO-rYu"/>
+                        <constraint firstAttribute="trailingMargin" secondItem="igh-XX-3G6" secondAttribute="trailing" id="nyp-tD-U2t"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="width" constant="1005" id="KWY-3q-LEv"/>
+                <constraint firstAttribute="height" constant="300" id="uUE-na-T2s"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="eRz-LY-5ht"/>
+        </stackView>
+    </objects>
+    <resources>
+        <image name="atom" width="512" height="512"/>
+        <image name="coins-3" width="512" height="512"/>
+    </resources>
+</document>
