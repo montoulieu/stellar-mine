@@ -9,6 +9,8 @@
 import UIKit
 
 class GameViewController: UIViewController {
+    let location = ""
+    
     
     
     @IBOutlet weak var scrollMenu: UIScrollView!
@@ -21,6 +23,7 @@ class GameViewController: UIViewController {
         navigationBar.isTranslucent = false
         navigationBar.setBackgroundImage(UIImage(), for: .default)
         navigationBar.shadowImage = UIImage()
+        navigationBar.topItem?.title = location
     }
     
     @IBAction func testing() {
