@@ -9,29 +9,56 @@
 import UIKit
 
 class GameViewController: UIViewController {
-    let location = ""
     
+    var location = "Lunar Spaceport"
+    var level = 1
+    var exp = 0
+    var crewMembers: Float = 3
+    var credits: Float = 0
+    var resources: Float = 0
+    var maxResources: Float = 300
     
-    
-    @IBOutlet weak var scrollMenu: UIScrollView!
+    @IBOutlet weak var creditsLabel: UILabel!
+    @IBOutlet weak var resourcesLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        loadState()
         
+        // Initializes location in title bar
         let navigationBar = navigationController!.navigationBar
-        navigationBar.barTintColor = UIColor.black
-        navigationBar.isTranslucent = false
-        navigationBar.setBackgroundImage(UIImage(), for: .default)
-        navigationBar.shadowImage = UIImage()
         navigationBar.topItem?.title = location
+        
+        // TODO: Move state saving to AppDelegate
+        let notificationCenter = NotificationCenter.default
+        notificationCenter.addObserver(self, selector: #selector(appMovedToBackground), name: UIApplication.willResignActiveNotification, object: nil)
+        
+        let saveTimer = Timer(timeInterval: 1, target: self, selector: #selector(saveState), userInfo: nil, repeats: true)
+        RunLoop.current.add(saveTimer, forMode: .common)
+        
+        let timer = Timer(timeInterval: 0.5, target: self, selector: #selector(acquireResources), userInfo: nil, repeats: true)
+        RunLoop.current.add(timer, forMode: .common)
     }
     
-    @IBAction func testing() {
-        let title = "Testing"
-        let message = "You pressed the testing button"
-        let alert = UIAlertController(title: title, message: message, preferredStyle: .actionSheet)
-        let action = UIAlertAction(title: "OK", style: .default, handler: nil)
-        alert.addAction(action)
-        present(alert, animated: true, completion: nil)
+    @IBAction func acquireResources() {
+        if resources < maxResources {
+            resources += (1 + (crewMembers * 0.25)).rounded()
+            resourcesLabel.text = "\(Int(resources)) res"
+        }
+    }
+    
+    @objc func appMovedToBackground() {
+        saveState()
+    }
+    
+    @IBAction func saveState() {
+        UserDefaults.standard.set(Int(credits), forKey: "credits")
+        UserDefaults.standard.set(Int(resources), forKey: "resources")
+    }
+    
+    func loadState() {
+        credits = Float(UserDefaults.standard.integer(forKey: "credits"))
+        resources = Float(UserDefaults.standard.integer(forKey: "resources"))
+        resourcesLabel.text = "\(Int(resources)) res"
     }
 }
