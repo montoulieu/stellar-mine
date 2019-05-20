@@ -8,10 +8,8 @@ class TitleViewController: UIViewController {
         super.viewDidLoad()
         
         for system in starMap.systems {
-            print(system)
+            print(system.name)
         }
-        
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func eraseGameData() {

@@ -61,7 +61,7 @@
                                 </variation>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stellar Mine" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wK5-lA-rLU">
-                                <rect key="frame" x="40.333333333333343" y="0.0" width="294.33333333333326" height="290"/>
+                                <rect key="frame" x="40.666666666666657" y="0.0" width="294" height="290"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="290" id="PWr-7h-tl2"/>
                                     <constraint firstAttribute="width" constant="335" id="uO3-8O-4wE"/>
@@ -88,7 +88,7 @@
                                 </variation>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-stellar-mine" translatesAutoresizingMaskIntoConstraints="NO" id="vsV-52-0QC">
-                                <rect key="frame" x="62.666666666666657" y="281" width="249.99999999999997" height="250"/>
+                                <rect key="frame" x="62.666666666666657" y="281" width="250.0000000000002" height="250"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="250" id="D5J-2N-FfB"/>
                                     <constraint firstAttribute="width" constant="250" id="GvM-Oy-k6f"/>
@@ -200,16 +200,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YBu-IP-gVc" userLabel="Message Box">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="335"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="308"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7J9-jm-xcr">
-                                        <rect key="frame" x="20" y="0.0" width="335" height="335"/>
+                                        <rect key="frame" x="20" y="0.0" width="335" height="308"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="335" id="NIe-P6-eNd"/>
-                                            <constraint firstAttribute="height" constant="335" id="NYk-R0-vCU"/>
+                                            <constraint firstAttribute="height" constant="308" id="NYk-R0-vCU"/>
                                         </constraints>
-                                        <string key="text">After passing your certification and training, you have been granted clearing for interstellar mining operations starting today.
+                                        <string key="text">After passing your certification and training, you have been granted clearance for interstellar mining operations starting today.
 
 Assemble your ships crew to begin mining the galaxies untold fortune.</string>
                                         <color key="textColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -222,7 +222,7 @@ Assemble your ships crew to begin mining the galaxies untold fortune.</string>
                                     <constraint firstItem="7J9-jm-xcr" firstAttribute="leading" secondItem="YBu-IP-gVc" secondAttribute="leading" id="67n-kJ-fEU"/>
                                     <constraint firstItem="7J9-jm-xcr" firstAttribute="top" secondItem="YBu-IP-gVc" secondAttribute="top" id="88L-8e-2bG"/>
                                     <constraint firstAttribute="width" constant="335" id="kbh-xO-EQy"/>
-                                    <constraint firstAttribute="height" constant="335" id="sLU-2v-jgT"/>
+                                    <constraint firstAttribute="height" constant="308" id="sLU-2v-jgT"/>
                                     <constraint firstItem="7J9-jm-xcr" firstAttribute="centerX" secondItem="YBu-IP-gVc" secondAttribute="centerX" id="yff-3O-CSc"/>
                                 </constraints>
                                 <variation key="default">
@@ -345,151 +345,65 @@ Assemble your ships crew to begin mining the galaxies untold fortune.</string>
                                                                     <constraint firstItem="b2a-Ij-QMo" firstAttribute="leading" secondItem="XkQ-5k-t6R" secondAttribute="leadingMargin" id="h7g-nM-2Jj"/>
                                                                 </constraints>
                                                             </view>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EHR-cc-vSq" userLabel="Pane - Stats">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J6I-qJ-Q1J" userLabel="Pane - Mgmt">
                                                                 <rect key="frame" x="335" y="0.0" width="335" height="300"/>
                                                                 <subviews>
-                                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Frx-Gr-oVz" userLabel="Stats Table">
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="PzR-XK-jYh">
                                                                         <rect key="frame" x="8" y="8" width="319" height="284"/>
                                                                         <subviews>
-                                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RvR-2p-FPF">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="319" height="65"/>
-                                                                                <subviews>
-                                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="atom" translatesAutoresizingMaskIntoConstraints="NO" id="6kh-8M-8p4">
-                                                                                        <rect key="frame" x="8" y="16" width="32" height="32"/>
-                                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                                    </imageView>
-                                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0 res" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bd5-0I-8ig">
-                                                                                        <rect key="frame" x="48" y="6" width="263" height="50"/>
-                                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                                        <color key="textColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                                                        <nil key="highlightedColor"/>
-                                                                                    </label>
-                                                                                </subviews>
-                                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                            </view>
-                                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yym-Jj-jb4">
-                                                                                <rect key="frame" x="0.0" y="72.999999999999943" width="319" height="65"/>
-                                                                                <subviews>
-                                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="coins-3" translatesAutoresizingMaskIntoConstraints="NO" id="OzM-ru-m9F">
-                                                                                        <rect key="frame" x="8" y="16" width="32" height="32"/>
-                                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                                    </imageView>
-                                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0  ucc" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kxQ-Bg-w53">
-                                                                                        <rect key="frame" x="48" y="6" width="263" height="50"/>
-                                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                                        <color key="textColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                                                        <nil key="highlightedColor"/>
-                                                                                    </label>
-                                                                                </subviews>
-                                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                            </view>
-                                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="get-5t-Kza">
-                                                                                <rect key="frame" x="0.0" y="145.99999999999994" width="319" height="65"/>
-                                                                                <subviews>
-                                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="atom" translatesAutoresizingMaskIntoConstraints="NO" id="ncX-hm-NNf">
-                                                                                        <rect key="frame" x="8" y="16" width="32" height="32"/>
-                                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                                    </imageView>
-                                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0 resources" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jOf-Gk-bWf">
-                                                                                        <rect key="frame" x="48" y="6" width="263" height="50"/>
-                                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                                        <color key="textColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                                                        <nil key="highlightedColor"/>
-                                                                                    </label>
-                                                                                </subviews>
-                                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                            </view>
-                                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sQs-Iq-HMc">
-                                                                                <rect key="frame" x="0.0" y="218.99999999999994" width="319" height="65"/>
-                                                                                <subviews>
-                                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="atom" translatesAutoresizingMaskIntoConstraints="NO" id="eBu-4m-Uft">
-                                                                                        <rect key="frame" x="8" y="16" width="32" height="32"/>
-                                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                                    </imageView>
-                                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0 resources" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WGS-UR-9T7">
-                                                                                        <rect key="frame" x="48" y="6" width="263" height="50"/>
-                                                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                                        <color key="textColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                                                        <nil key="highlightedColor"/>
-                                                                                    </label>
-                                                                                </subviews>
-                                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                            </view>
-                                                                        </subviews>
-                                                                    </stackView>
-                                                                </subviews>
-                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <constraints>
-                                                                    <constraint firstItem="Frx-Gr-oVz" firstAttribute="top" secondItem="EHR-cc-vSq" secondAttribute="topMargin" id="FWU-5u-jvs"/>
-                                                                    <constraint firstAttribute="height" constant="300" id="N99-dj-evK"/>
-                                                                    <constraint firstAttribute="trailingMargin" secondItem="Frx-Gr-oVz" secondAttribute="trailing" id="bj8-IL-Z8y"/>
-                                                                    <constraint firstItem="Frx-Gr-oVz" firstAttribute="leading" secondItem="EHR-cc-vSq" secondAttribute="leadingMargin" id="jmx-4z-V4K"/>
-                                                                    <constraint firstAttribute="bottomMargin" secondItem="Frx-Gr-oVz" secondAttribute="bottom" id="vvb-b6-TlJ"/>
-                                                                </constraints>
-                                                            </view>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RhG-Oy-hn5" userLabel="Menu Pane">
-                                                                <rect key="frame" x="670" y="0.0" width="335" height="300"/>
-                                                                <subviews>
-                                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Ef9-8D-SEB">
-                                                                        <rect key="frame" x="8" y="8" width="319" height="284"/>
-                                                                        <subviews>
-                                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="rmx-Or-aJF">
+                                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="2Cq-4f-2Jv">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="155.66666666666666" height="284"/>
                                                                                 <subviews>
-                                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="goo-SD-DGn">
+                                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wh4-SG-tPZ">
                                                                                         <rect key="frame" x="0.0" y="0.0" width="155.66666666666666" height="89.333333333333329"/>
                                                                                         <color key="backgroundColor" white="0.02" alpha="1" colorSpace="calibratedWhite"/>
-                                                                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
-                                                                                        <state key="normal" title="Star Map">
+                                                                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                                                                        <state key="normal" title="Star Map" backgroundImage="UIButtonFrame">
                                                                                             <color key="titleColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                                                                         </state>
                                                                                     </button>
-                                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cyg-eJ-mIa">
+                                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jxs-Sx-CnG">
                                                                                         <rect key="frame" x="0.0" y="97.333333333333314" width="155.66666666666666" height="89.333333333333314"/>
                                                                                         <color key="backgroundColor" white="0.02" alpha="1" colorSpace="calibratedWhite"/>
-                                                                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
-                                                                                        <state key="normal" title="Resources">
+                                                                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                                                                        <state key="normal" title="Resources" backgroundImage="UIButtonFrame">
                                                                                             <color key="titleColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                                                                         </state>
                                                                                     </button>
-                                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y2c-4c-QQa">
+                                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PiQ-cJ-hoW">
                                                                                         <rect key="frame" x="0.0" y="194.66666666666669" width="155.66666666666666" height="89.333333333333314"/>
                                                                                         <color key="backgroundColor" white="0.02" alpha="1" colorSpace="calibratedWhite"/>
-                                                                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
-                                                                                        <state key="normal" title="Upgrades">
+                                                                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                                                                        <state key="normal" title="Buildings" backgroundImage="UIButtonFrame">
                                                                                             <color key="titleColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                                                                         </state>
                                                                                     </button>
                                                                                 </subviews>
                                                                             </stackView>
-                                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="aaU-K3-GwL">
+                                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Nbe-wY-97z">
                                                                                 <rect key="frame" x="163.66666666666663" y="0.0" width="155.33333333333337" height="284"/>
                                                                                 <subviews>
-                                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIt-x3-NXm">
+                                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhg-oM-pYW">
                                                                                         <rect key="frame" x="0.0" y="0.0" width="155.33333333333334" height="89.333333333333329"/>
                                                                                         <color key="backgroundColor" white="0.02" alpha="1" colorSpace="calibratedWhite"/>
-                                                                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
-                                                                                        <state key="normal" title="Crew">
+                                                                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                                                                        <state key="normal" title="Crew" backgroundImage="UIButtonFrame">
                                                                                             <color key="titleColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                                                                         </state>
                                                                                     </button>
-                                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9XS-ql-LL1">
+                                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HfY-Nn-Bqh">
                                                                                         <rect key="frame" x="0.0" y="97.333333333333314" width="155.33333333333334" height="89.333333333333314"/>
                                                                                         <color key="backgroundColor" white="0.02" alpha="1" colorSpace="calibratedWhite"/>
-                                                                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
-                                                                                        <state key="normal" title="Systems">
+                                                                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                                                                        <state key="normal" title="Upgrades" backgroundImage="UIButtonFrame">
                                                                                             <color key="titleColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                                                                         </state>
                                                                                     </button>
-                                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1lv-4c-oBH">
+                                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cxR-fb-iTI">
                                                                                         <rect key="frame" x="0.0" y="194.66666666666669" width="155.33333333333334" height="89.333333333333314"/>
                                                                                         <color key="backgroundColor" white="0.02" alpha="1" colorSpace="calibratedWhite"/>
-                                                                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="17"/>
-                                                                                        <state key="normal" title="Trophies">
+                                                                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                                                                        <state key="normal" title="Trophies" backgroundImage="UIButtonFrame">
                                                                                             <color key="titleColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                                                                         </state>
                                                                                     </button>
@@ -500,11 +414,87 @@ Assemble your ships crew to begin mining the galaxies untold fortune.</string>
                                                                 </subviews>
                                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
-                                                                    <constraint firstAttribute="trailingMargin" secondItem="Ef9-8D-SEB" secondAttribute="trailing" id="2uq-WG-siE"/>
-                                                                    <constraint firstItem="Ef9-8D-SEB" firstAttribute="top" secondItem="RhG-Oy-hn5" secondAttribute="topMargin" id="QFY-Af-5LT"/>
-                                                                    <constraint firstAttribute="bottomMargin" secondItem="Ef9-8D-SEB" secondAttribute="bottom" id="bVk-s3-lDA"/>
-                                                                    <constraint firstItem="Ef9-8D-SEB" firstAttribute="leading" secondItem="RhG-Oy-hn5" secondAttribute="leadingMargin" id="nXE-L8-wYB"/>
-                                                                    <constraint firstAttribute="height" constant="300" id="sa3-ld-tOP"/>
+                                                                    <constraint firstAttribute="trailingMargin" secondItem="PzR-XK-jYh" secondAttribute="trailing" id="BRY-PB-T5k"/>
+                                                                    <constraint firstItem="PzR-XK-jYh" firstAttribute="top" secondItem="J6I-qJ-Q1J" secondAttribute="topMargin" id="SQF-0m-eaI"/>
+                                                                    <constraint firstAttribute="height" constant="300" id="bO0-LT-GHn"/>
+                                                                    <constraint firstItem="PzR-XK-jYh" firstAttribute="leading" secondItem="J6I-qJ-Q1J" secondAttribute="leadingMargin" id="fnF-6c-kH2"/>
+                                                                    <constraint firstAttribute="bottomMargin" secondItem="PzR-XK-jYh" secondAttribute="bottom" id="lH8-uS-evC"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Rd-q0-bnc" userLabel="Pane - Mgmt">
+                                                                <rect key="frame" x="670" y="0.0" width="335" height="300"/>
+                                                                <subviews>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="aD5-mL-FtZ">
+                                                                        <rect key="frame" x="8" y="8" width="319" height="284"/>
+                                                                        <subviews>
+                                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="BLu-2u-cY5">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="155.66666666666666" height="284"/>
+                                                                                <subviews>
+                                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSB-jh-XUn">
+                                                                                        <rect key="frame" x="0.0" y="0.0" width="155.66666666666666" height="89.333333333333329"/>
+                                                                                        <color key="backgroundColor" white="0.02" alpha="1" colorSpace="calibratedWhite"/>
+                                                                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                                                                        <state key="normal" title="Star Map" backgroundImage="UIButtonFrame">
+                                                                                            <color key="titleColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                        </state>
+                                                                                    </button>
+                                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oG1-uM-TCj">
+                                                                                        <rect key="frame" x="0.0" y="97.333333333333314" width="155.66666666666666" height="89.333333333333314"/>
+                                                                                        <color key="backgroundColor" white="0.02" alpha="1" colorSpace="calibratedWhite"/>
+                                                                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                                                                        <state key="normal" title="Resources" backgroundImage="UIButtonFrame">
+                                                                                            <color key="titleColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                        </state>
+                                                                                    </button>
+                                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gUJ-sJ-4uo">
+                                                                                        <rect key="frame" x="0.0" y="194.66666666666669" width="155.66666666666666" height="89.333333333333314"/>
+                                                                                        <color key="backgroundColor" white="0.02" alpha="1" colorSpace="calibratedWhite"/>
+                                                                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                                                                        <state key="normal" title="Buildings" backgroundImage="UIButtonFrame">
+                                                                                            <color key="titleColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                        </state>
+                                                                                    </button>
+                                                                                </subviews>
+                                                                            </stackView>
+                                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="pQZ-wO-oJv">
+                                                                                <rect key="frame" x="163.66666666666663" y="0.0" width="155.33333333333337" height="284"/>
+                                                                                <subviews>
+                                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huh-NO-IYH">
+                                                                                        <rect key="frame" x="0.0" y="0.0" width="155.33333333333334" height="89.333333333333329"/>
+                                                                                        <color key="backgroundColor" white="0.02" alpha="1" colorSpace="calibratedWhite"/>
+                                                                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                                                                        <state key="normal" title="Crew" backgroundImage="UIButtonFrame">
+                                                                                            <color key="titleColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                        </state>
+                                                                                    </button>
+                                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxo-OM-AwV">
+                                                                                        <rect key="frame" x="0.0" y="97.333333333333314" width="155.33333333333334" height="89.333333333333314"/>
+                                                                                        <color key="backgroundColor" white="0.02" alpha="1" colorSpace="calibratedWhite"/>
+                                                                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                                                                        <state key="normal" title="Upgrades" backgroundImage="UIButtonFrame">
+                                                                                            <color key="titleColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                        </state>
+                                                                                    </button>
+                                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1T-ez-mNz">
+                                                                                        <rect key="frame" x="0.0" y="194.66666666666669" width="155.33333333333334" height="89.333333333333314"/>
+                                                                                        <color key="backgroundColor" white="0.02" alpha="1" colorSpace="calibratedWhite"/>
+                                                                                        <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="18"/>
+                                                                                        <state key="normal" title="Trophies" backgroundImage="UIButtonFrame">
+                                                                                            <color key="titleColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                        </state>
+                                                                                    </button>
+                                                                                </subviews>
+                                                                            </stackView>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                </subviews>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="trailingMargin" secondItem="aD5-mL-FtZ" secondAttribute="trailing" id="7Q7-8I-AZP"/>
+                                                                    <constraint firstItem="aD5-mL-FtZ" firstAttribute="leading" secondItem="6Rd-q0-bnc" secondAttribute="leadingMargin" id="KUB-2s-wWi"/>
+                                                                    <constraint firstAttribute="height" constant="300" id="STm-DC-9SX"/>
+                                                                    <constraint firstAttribute="bottomMargin" secondItem="aD5-mL-FtZ" secondAttribute="bottom" id="VGf-dm-v0b"/>
+                                                                    <constraint firstItem="aD5-mL-FtZ" firstAttribute="top" secondItem="6Rd-q0-bnc" secondAttribute="topMargin" id="mQJ-nG-D2y"/>
                                                                 </constraints>
                                                             </view>
                                                         </subviews>
@@ -559,9 +549,91 @@ Assemble your ships crew to begin mining the galaxies untold fortune.</string>
                                     </mask>
                                 </variation>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1dG-1O-PnJ" userLabel="Stats Bar">
+                                <rect key="frame" x="20" y="337" width="335" height="30"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Qqx-sh-qbL">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="30"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RDK-HU-Mpx">
+                                                <rect key="frame" x="0.0" y="0.0" width="167.66666666666666" height="30"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="atom" translatesAutoresizingMaskIntoConstraints="NO" id="3VK-LP-4CU">
+                                                        <rect key="frame" x="10" y="3" width="24" height="24"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="24" id="Sec-Pe-drH"/>
+                                                            <constraint firstAttribute="height" constant="24" id="yAv-Zp-cnG"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Q7-FZ-6SZ">
+                                                        <rect key="frame" x="8" y="6.5" width="150" height="17.5"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="15"/>
+                                                        <color key="textColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="adi-jh-rnr"/>
+                                                    <constraint firstItem="3VK-LP-4CU" firstAttribute="leading" secondItem="RDK-HU-Mpx" secondAttribute="leading" constant="10" id="jmp-je-4ap"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eCK-0I-cLl">
+                                                <rect key="frame" x="167.66666666666663" y="0.0" width="167.33333333333337" height="30"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="coins-3" translatesAutoresizingMaskIntoConstraints="NO" id="iqb-2v-4qL">
+                                                        <rect key="frame" x="10" y="3" width="24" height="24"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="24" id="l05-Cd-mt3"/>
+                                                            <constraint firstAttribute="width" constant="24" id="tpz-zP-QAg"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ly-Vv-8ne">
+                                                        <rect key="frame" x="148.66666666666663" y="6.5" width="9.3333333333333428" height="17.5"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="15"/>
+                                                        <color key="textColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="BfH-Wb-f5q"/>
+                                                    <constraint firstItem="iqb-2v-4qL" firstAttribute="leading" secondItem="eCK-0I-cLl" secondAttribute="leading" constant="10" id="X9I-4X-Ujd"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="GMx-1L-YYe"/>
+                                            <constraint firstAttribute="width" constant="335" id="Voc-Hs-fzU"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Qqx-sh-qbL" firstAttribute="centerX" secondItem="1dG-1O-PnJ" secondAttribute="centerX" id="DMB-lw-oN6"/>
+                                    <constraint firstAttribute="height" constant="30" id="eK1-Ca-E8H"/>
+                                    <constraint firstAttribute="width" constant="335" id="thp-qW-9Ge"/>
+                                    <constraint firstItem="Qqx-sh-qbL" firstAttribute="centerX" secondItem="1dG-1O-PnJ" secondAttribute="centerX" id="xD8-Ju-KHk"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="thp-qW-9Ge"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="thp-qW-9Ge"/>
+                                    </mask>
+                                </variation>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="1dG-1O-PnJ" secondAttribute="bottom" id="5c5-3s-Ltn"/>
+                            <constraint firstItem="1dG-1O-PnJ" firstAttribute="leading" secondItem="kGt-1p-ZRE" secondAttribute="leading" constant="20" id="6SN-dK-CLG"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="1dG-1O-PnJ" secondAttribute="bottom" constant="20" id="8Dw-fB-aag"/>
                             <constraint firstItem="YBu-IP-gVc" firstAttribute="top" secondItem="kGt-1p-ZRE" secondAttribute="top" id="B9K-8Z-ZGy"/>
                             <constraint firstItem="xfM-IA-bvI" firstAttribute="trailing" secondItem="kGt-1p-ZRE" secondAttribute="trailing" id="CK2-WM-dO5"/>
                             <constraint firstItem="xfM-IA-bvI" firstAttribute="leading" secondItem="kGt-1p-ZRE" secondAttribute="leading" id="DDQ-5H-kwc"/>
@@ -569,20 +641,29 @@ Assemble your ships crew to begin mining the galaxies untold fortune.</string>
                             <constraint firstItem="YBu-IP-gVc" firstAttribute="leading" secondItem="kGt-1p-ZRE" secondAttribute="leading" id="JPH-yW-K8o"/>
                             <constraint firstItem="kGt-1p-ZRE" firstAttribute="bottom" secondItem="xfM-IA-bvI" secondAttribute="bottom" id="T8n-OA-aQp"/>
                             <constraint firstItem="YBu-IP-gVc" firstAttribute="leading" secondItem="kGt-1p-ZRE" secondAttribute="leading" id="TKZ-1D-rJ3"/>
+                            <constraint firstItem="1dG-1O-PnJ" firstAttribute="centerY" secondItem="t4b-Td-lrs" secondAttribute="centerY" constant="-10" id="h4r-hI-7l8"/>
+                            <constraint firstItem="1dG-1O-PnJ" firstAttribute="leading" secondItem="t4b-Td-lrs" secondAttribute="leadingMargin" id="iAl-iD-fP6"/>
                             <constraint firstAttribute="trailing" secondItem="YBu-IP-gVc" secondAttribute="trailing" id="khc-Om-Wma"/>
                             <constraint firstItem="xfM-IA-bvI" firstAttribute="top" secondItem="kGt-1p-ZRE" secondAttribute="top" id="kmg-mb-G7E"/>
                             <constraint firstItem="YBu-IP-gVc" firstAttribute="leading" secondItem="kGt-1p-ZRE" secondAttribute="leading" id="lu6-z2-4DP"/>
                             <constraint firstItem="kGt-1p-ZRE" firstAttribute="bottom" secondItem="xfM-IA-bvI" secondAttribute="bottom" id="m4T-gz-BFf"/>
                             <constraint firstItem="xfM-IA-bvI" firstAttribute="centerY" secondItem="t4b-Td-lrs" secondAttribute="centerY" id="q2o-0V-nah"/>
+                            <constraint firstItem="kGt-1p-ZRE" firstAttribute="trailing" secondItem="1dG-1O-PnJ" secondAttribute="trailing" constant="20" id="rcw-fj-xNm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="kGt-1p-ZRE"/>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="T8n-OA-aQp"/>
-                                <exclude reference="m4T-gz-BFf"/>
                                 <exclude reference="JPH-yW-K8o"/>
                                 <exclude reference="TKZ-1D-rJ3"/>
                                 <exclude reference="khc-Om-Wma"/>
+                                <exclude reference="T8n-OA-aQp"/>
+                                <exclude reference="m4T-gz-BFf"/>
+                                <exclude reference="rcw-fj-xNm"/>
+                                <exclude reference="5c5-3s-Ltn"/>
+                                <exclude reference="6SN-dK-CLG"/>
+                                <exclude reference="8Dw-fB-aag"/>
+                                <exclude reference="h4r-hI-7l8"/>
+                                <exclude reference="iAl-iD-fP6"/>
                                 <exclude reference="DDQ-5H-kwc"/>
                                 <exclude reference="Fxj-dP-FVc"/>
                                 <exclude reference="kmg-mb-G7E"/>
@@ -597,25 +678,39 @@ Assemble your ships crew to begin mining the galaxies untold fortune.</string>
                                 <include reference="q2o-0V-nah"/>
                             </mask>
                         </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="5c5-3s-Ltn"/>
+                                <include reference="iAl-iD-fP6"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="8Dw-fB-aag"/>
+                            </mask>
+                        </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="constraints">
-                                <include reference="T8n-OA-aQp"/>
-                                <include reference="m4T-gz-BFf"/>
                                 <include reference="TKZ-1D-rJ3"/>
                                 <include reference="khc-Om-Wma"/>
+                                <include reference="T8n-OA-aQp"/>
+                                <include reference="m4T-gz-BFf"/>
+                                <include reference="rcw-fj-xNm"/>
+                                <include reference="6SN-dK-CLG"/>
+                                <include reference="h4r-hI-7l8"/>
                                 <include reference="DDQ-5H-kwc"/>
                             </mask>
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Location" id="kTU-DB-Ofa"/>
                     <connections>
-                        <outlet property="creditsLabel" destination="kxQ-Bg-w53" id="IQb-0i-bDR"/>
-                        <outlet property="resourcesLabel" destination="bd5-0I-8ig" id="xdY-9P-Ydu"/>
+                        <outlet property="creditsLabel" destination="0Ly-Vv-8ne" id="qkf-Ub-LDW"/>
+                        <outlet property="resourcesLabel" destination="1Q7-FZ-6SZ" id="wJI-3G-QhO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QKP-NU-4aq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2758" y="44"/>
+            <point key="canvasLocation" x="2757.5999999999999" y="43.596059113300491"/>
         </scene>
         <!--Star Map-->
         <scene sceneID="njN-Ra-u2V">
@@ -624,15 +719,27 @@ Assemble your ships crew to begin mining the galaxies untold fortune.</string>
                     <view key="view" contentMode="scaleToFill" id="9KZ-5u-Ose">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="System" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ix3-wR-aJs">
+                                <rect key="frame" x="16" y="20" width="343" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="20"/>
+                                <color key="textColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" red="0.28627450980000002" green="0.72156862749999995" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="4ln-Ml-hoc"/>
                     </view>
                     <navigationItem key="navigationItem" title="Star Map" id="dvc-Q3-rCd"/>
+                    <connections>
+                        <outlet property="systemLabel" destination="ix3-wR-aJs" id="ND1-4H-8Sn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UFK-XZ-398" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3983" y="-388"/>
+            <point key="canvasLocation" x="3981.5999999999999" y="-388.66995073891627"/>
         </scene>
         <!--Resources-->
         <scene sceneID="VfZ-5r-CfD">

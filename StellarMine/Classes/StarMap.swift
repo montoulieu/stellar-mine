@@ -10,7 +10,7 @@ import UIKit
 
 class StarMap {
     let systems = [
-        "SOL": StarSystem(
+        StarSystem(
             name: "Solar System",
             planets: [
                 CBPlanet(
@@ -47,7 +47,7 @@ class StarMap {
             playerLevelMinimum: 1,
             shipLevelMinimum: 1
         ),
-        "PC": StarSystem(
+        StarSystem(
             name: "Proxima Centuari",
             planets: [
                 CBPlanet(
@@ -84,7 +84,7 @@ class StarMap {
             playerLevelMinimum: 10,
             shipLevelMinimum: 10
         ),
-        "YZ": StarSystem(
+        StarSystem(
             name: "YZ Ceti",
             planets: [
                 CBPlanet(

@@ -10,12 +10,16 @@ import UIKit
 
 class MapViewController: UIViewController {
     
+    var currentSystem = 0
+    var currentPlanet = 2
+    var currentSatellite = 0
     let starMap = StarMap.init()
     
+    @IBOutlet weak var systemLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Do any additional setup after loading the view.
+    
+        systemLabel.text = starMap.systems[currentSystem].name
     }
 }
